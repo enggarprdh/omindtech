@@ -1,0 +1,115 @@
+.clean-table {
+    border-collapse: collapse !important;
+    border-spacing: 0 !important;
+    width: 100% !important;
+}
+
+th.table-title {
+    text-align: center;
+}
+
+td.center-content {
+    text-align: center;
+    vertical-align: inherit;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+
+.btn-group>form>.btn-group:not(:last-child)>form>.btn,
+.btn-group>form>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.btn-group>form>.btn-group:not(:first-child)>form>.btn,
+.btn-group>form>.btn:not(:first-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.btn-group>form>.btn-group:not(:first-child),
+.btn-group>form>.btn:not(:first-child) {
+    margin-left: -1px;
+}
+
+ul {
+    list-style: none;
+    margin: 5px 20px;
+}
+
+li {
+    margin: 0 0 5px 0;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__clear {
+    margin-right: 18px;
+}
+
+.odd td {
+    height: 0px;
+    transition: all ease 0.5s;
+    padding: 6px;
+}
+
+.even td {
+    height: 0px;
+    transition: all ease 0.5s;
+    padding: 6px;
+
+}
+
+.title-form-group {
+    margin-bottom: 1em;
+}
+
+.title-form-group>.col-12>h5 {
+    border-bottom: 1px solid #bbb5c3;
+    padding: 0.5em;
+
+}
+
+.body-form-group {
+    padding-left: 1.5em;
+}
+
+#showpass.input-group-text {
+    padding: .0rem .75rem;
+    background-color: #fff;
+    border-left: none;
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+
+.input-group-text>.mdi.mdi-eye,.input-group-text>.mdi.mdi-eye-off {
+    font-size: 20px;
+}
+
+.input-group>#password {
+    border-right: none;
+}
+
+#password.form-control {
+    width: calc(100% - 45px);
+}
+
+.invalid-password {
+    border-color: #f46a6a ;
+}
+
+.select2-border-invalid {
+    border-color: #f46a6a !important;
+}
+
+.example-section {
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #adb5bd ;
+}
